@@ -1,0 +1,292 @@
+From didouph at hotmail.com  Tue Dec  4 01:26:40 2007
+From: didouph at hotmail.com (Ramboz Pierre-Henri)
+Date: Tue, 4 Dec 2007 00:26:40 +0000
+Subject: [Livecd-devel] new tools
+Message-ID: <BAY126-W60E6ABEF70A3DCAFF7467FA46D0@phx.gbl>
+
+
+Hi all
+
+I want to point you to some new tools being developed around mklivecd 
+script and livecd framework @ mypclinuxos.com
+
+Remaster GUI is an attempt to give mklivecd a gui front-end to remaster 
+for the average joe to be able to remaster/backup his system in no time
+http://www.mypclinuxos.com/forum/index.php?board=85.0
+(the project just got set-up and is based on this tread : 
+http://www.mypclinuxos.com/forum/index.php?topic=1433.0 )
+
+Poor Man's Install Script / Live USB ... is a poorman install project 
+aiming to get a usb dongle/key/flash behave like a livecd but with write 
+access and change being saved to it ... a real portable OS
+http://www.mypclinuxos.com/forum/index.php?board=84.0
+
+Despite the fact that those are hosted on a pclinuxos project site, it 
+doesn't mean those are pclinuxos centric or pclinuxos only ... they are 
+open and willing for external imput (mandriva ? mcn live ? ... )
+
+thanks for your attention
+
+bye
+
+DidouPh
+
+
+_________________________________________________________________
+D?couvrez le blog Messenger Le Meilleur du Web : toutes les vid?os qui buzzent le plus sur Internet !
+http://meilleurduweb.spaces.live.com/
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/livecd-devel/attachments/20071204/596d9a8b/attachment.html>
+
+From didouph at hotmail.com  Wed Dec  5 23:18:19 2007
+From: didouph at hotmail.com (Ramboz Pierre-Henri)
+Date: Wed, 5 Dec 2007 22:18:19 +0000
+Subject: [Livecd-devel] new developer
+Message-ID: <BAY126-W8C1C0CC3741850389D67EA46E0@phx.gbl>
+
+
+hi all,
+
+I'd like to introduce Paul Grinberg.
+He's the author of the Remaster-gui I recently introduced to you.
+He will be implementing this gui as a part of the livecd framework.
+Since this gui is a front-end to mklivecd ... there might virtually be 
+no reason for the gui code to influence the mklivecd script and 
+livecd-utils code.
+
+DidouPh
+
+
+_________________________________________________________________
+D?couvrez le blog Messenger Le Meilleur du Web : toutes les vid?os qui buzzent le plus sur Internet !
+http://meilleurduweb.spaces.live.com/
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/livecd-devel/attachments/20071205/f29e0325/attachment.html>
+
+From didouph at hotmail.com  Thu Dec  6 01:08:49 2007
+From: didouph at hotmail.com (Ramboz Pierre-Henri)
+Date: Thu, 6 Dec 2007 00:08:49 +0000
+Subject: [Livecd-devel] pclinuxos srpm
+Message-ID: <BAY126-W160D17AF49B9EE08A4D10FA46F0@phx.gbl>
+
+
+hi all
+
+this message is more for Ivan, Sal and other pclinuxos developers that
+my be able to grant me access to the srpm for the 0.6.0-32 version of
+mklivecd as embedded in the testing version of the current mklivecd so i
+can add the sources to the CVS and resynch everything ... the last srpm
+i could use to get the sources for such update was 0.6.0-22 which is 6
+month old ! the current RPM.testing section of the repository refers to
+it as being 0.6.0-32 for the latest available but the source rpm isn't
+fetchable yet !
+
+thanks for your understanding.
+
+Pierre-Henri
+
+
+
+_________________________________________________________________
+Votez pour vos acteurs de s?ries TV pr?f?r?s et tentez de gagner un voyage ? Hawa? !
+http://messengerawards.divertissements.fr.msn.com/
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/livecd-devel/attachments/20071206/ac24c94b/attachment.html>
+
+From sal5528 at gmail.com  Thu Dec  6 16:41:11 2007
+From: sal5528 at gmail.com (Sal)
+Date: Thu, 6 Dec 2007 09:41:11 -0600
+Subject: [Livecd-devel] pclinuxos srpm
+In-Reply-To: <BAY126-W160D17AF49B9EE08A4D10FA46F0@phx.gbl>
+References: <BAY126-W160D17AF49B9EE08A4D10FA46F0@phx.gbl>
+Message-ID: <200712060941.11605.Sal5523@ameritech.net>
+
+On Wednesday 05 December 2007 06:08:49 pm Ramboz Pierre-Henri wrote:
+> hi all
+>
+> this message is more for Ivan, Sal and other pclinuxos developers that
+> my be able to grant me access to the srpm for the 0.6.0-32 version of
+> mklivecd as embedded in the testing version of the current mklivecd so i
+> can add the sources to the CVS and resynch everything ... the last srpm
+> i could use to get the sources for such update was 0.6.0-22 which is 6
+> month old ! the current RPM.testing section of the repository refers to
+> it as being 0.6.0-32 for the latest available but the source rpm isn't
+> fetchable yet !
+>
+> thanks for your understanding.
+>
+> Pierre-Henri
+>
+
+Tex moved a lot of stuff around yesterday and the rpm is now in SRPM.main but 
+maybe things haven't syncd yet. I've emailed you the package in any case. ;-)
+Sal
+
+
+From didouph at hotmail.com  Thu Dec  6 20:22:16 2007
+From: didouph at hotmail.com (Ramboz Pierre-Henri)
+Date: Thu, 6 Dec 2007 19:22:16 +0000
+Subject: [Livecd-devel] pclinuxos srpm
+Message-ID: <BAY126-W48C0B40096D786EF6C1F45A46F0@phx.gbl>
+
+
+Sal a ?crit :
+> On Wednesday 05 December 2007 06:08:49 pm Ramboz Pierre-Henri wrote:
+>> hi all
+>>
+>> this message is more for Ivan, Sal and other pclinuxos developers that
+>> my be able to grant me access to the srpm for the 0.6.0-32 version of
+>> mklivecd as embedded in the testing version of the current mklivecd so i
+>> can add the sources to the CVS and resynch everything ... the last srpm
+>> i could use to get the sources for such update was 0.6.0-22 which is 6
+>> month old ! the current RPM.testing section of the repository refers to
+>> it as being 0.6.0-32 for the latest available but the source rpm isn't
+>> fetchable yet !
+>>
+>> thanks for your understanding.
+>>
+>> Pierre-Henri
+>>
+> 
+> Tex moved a lot of stuff around yesterday and the rpm is now in SRPM.main but 
+> maybe things haven't syncd yet. I've emailed you the package in any case. ;-)
+> Sal
+> _______________________________________________
+> Livecd-devel mailing list
+> Livecd-devel at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/livecd-devel
+> 
+> 
+thanks sal,
+
+since i have sent this mail, i noticed there was a #34 release ... i'll 
+have a look at the depot and look for those file.
+
+bye
+
+Pierre-Henri
+
+
+_________________________________________________________________
+D?couvrez le blog Messenger Le Meilleur du Web : toutes les vid?os qui buzzent le plus sur Internet !
+http://meilleurduweb.spaces.live.com/
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/livecd-devel/attachments/20071206/492ef963/attachment.html>
+
+From didouph at hotmail.com  Fri Dec  7 22:50:03 2007
+From: didouph at hotmail.com (Ramboz Pierre-Henri)
+Date: Fri, 7 Dec 2007 21:50:03 +0000
+Subject: [Livecd-devel] [Fwd: feature request and reply]
+Message-ID: <BAY126-W2A1CA3E486C95D5277977A4680@phx.gbl>
+
+
+For those of you who are not registered on the livecd user list, here is 
+a feature request that was sent to it. my reply follows. Any comments ?
+
+Message: 1
+Date: Thu, 6 Dec 2007 17:02:02 -0800 (PST)
+From: vampire fo 
+Subject: Re: [Livecd-users] new developer
+
+Glad to see this group is still alive, LOL.
+
+Anyway, I would like to see an option in mklivecd that
+would allow one to install the created iso directly
+rather than have to boot from it into livecd mode.
+then install.
+
+Is an option like this going to be available in future
+releases or is it up to the hosting distro to create this?
+
+Best Regards
+Vampirefo
+-------------------------------------------------------------------------
+hi
+
+The option you're referring to is rather a boot option more than a 
+livecd option and the the overall task you're wishing to see endorsed by 
+the livecd tools isn't (as far as i can tell) possible. in other word, 
+it's possible to boot/start an x server then directly go to the install 
+section or to the desktop mode with livecd... other features are just 
+not livecd ...
+
+So yest it's likely to be done with livecd and eventually with an option 
+from the livecd initial boot screen (grub?) and with custom boot image 
+to go right away into install mode without a "live" desktop loggin or to 
+mockup a minimal gui loading like for drak3d and install with a loggin 
+screen hack ... but that would be in my very opinion against the livecd 
+philosophy itself.
+
+It doesn't sounds to me that there is anything to be added to the livecd 
+framework to do this, but rather something to be hacked in from the "pre 
+remaster" state of the system in order to allow this !
+
+Something else ...
+
+Since you wrote a gui to mklivecd too ... why don't you join gri in the 
+developement of his gui (perl/tk) and the port of it to perl/gtk and 
+maybe a blend with yours
+
+anyways i will forward this message to the livecd developer list.
+
+thanks for your input.
+
+DidouPh
+
+
+_________________________________________________________________
+D?couvrez le blog Messenger Le Meilleur du Web : toutes les vid?os qui buzzent le plus sur Internet !
+http://meilleurduweb.spaces.live.com/
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/livecd-devel/attachments/20071207/ddf79493/attachment.html>
+
+From admin at berlios.de  Thu Dec  6 00:29:16 2007
+From: admin at berlios.de (admin at berlios.de)
+Date: Wed, 05 Dec 2007 23:29:16 -0000
+Subject: [Livecd-devel] [Bug #3454] Changeing keyboard does not work in
+	LiveCD
+Message-ID: <200712052328.lB5NS397003216@unicorn.berlios.de>
+
+Bug #3454, was updated on 2005-Feb-23 12:09
+Here is a current snapshot of the bug.
+
+Project: LiveCD
+Category: mklivecd
+Status: Open
+Resolution: None
+Bug Group: None
+Priority: 6
+Submitted by: none
+Assigned to : none
+Summary: Changeing keyboard does not work in LiveCD
+
+Details: The problem is that if you e.g. add the keyboard chooser to kicker in KDE or run the command setxkbmap then you get an error that the keymap can not be loaded.
+
+The reason for this bug is simply because X cannot make a temporary file under /var/lib/xkb/. The permissions here needs to be 0777 or something similar for it to work under runlevel 3.
+
+When running under runlevel 5 however the system tries to find the files from 
+/usr/X11R6/lib/X11/xkb/
+which is (atleast on a Mandrake system) a symlink to:
+../../../../etc/X11/xkb/
+This should be changed to 
+/etc/X11/xkb/
+Since the relative link will point to the read only media when running from cd.
+
+The same goes for the link:
+/etc/X11/xkb/compiled/
+It links to
+../../../var/lib/xkb/
+But it should be:
+/var/lib/xkb/
+
+Not sure if this bug should go to mandrake or if this should be fixed when doing in mklivecd. After changing the two links and the permissions it works just fine on the resulting LiveCD.
+
+For detailed info, follow this link:
+http://developer.berlios.de/bugs/?func=detailbug&bug_id=3454&group_id=1149
+
+

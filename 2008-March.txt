@@ -1,0 +1,29 @@
+From cyril.brulebois at kerlabs.com  Mon Mar 31 15:36:59 2008
+From: cyril.brulebois at kerlabs.com (Cyril Brulebois)
+Date: Mon, 31 Mar 2008 15:36:59 +0200
+Subject: [Livecd-devel] What about NFSRoot ?
+Message-ID: <47F0E8FB.2040707@kerlabs.com>
+
+Hi folks,
+
+I'm wondering whether you already thought of implementing nfsroot in
+your tool, so that the generated initrd would also support booting from
+nfs, which mostly means mounting nfs according to some parameters passed
+through the boot command-line.
+
+I'm about to implement it myself, but if there were some patches around,
+I'd be happy to test and report back.
+
+Cheers,
+
+-- 
+Cyril Brulebois
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: signature.asc
+Type: application/pgp-signature
+Size: 252 bytes
+Desc: OpenPGP digital signature
+URL: <https://lists.berlios.de/pipermail/livecd-devel/attachments/20080331/b29425ce/attachment.pgp>
+

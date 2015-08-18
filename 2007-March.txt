@@ -1,0 +1,189 @@
+From didouph at hotmail.com  Sat Mar 17 20:04:21 2007
+From: didouph at hotmail.com (Ramboz Pierre-Henri)
+Date: Sat, 17 Mar 2007 19:04:21 +0000
+Subject: [Livecd-devel] Recent updates
+Message-ID: <BAY126-F35B392A5CCB3BDC4997402A4700@phx.gbl>
+
+Tom Kelly a ??crit :
+>Ivan has made some changes in CVS
+>to improve mklivecd.
+>I hope to look at the issues with
+>the latest Mandriva soon.
+>
+>Tom
+>
+>
+>  
+>__________________________________________________________________________________________
+>Check out the New Yahoo! Mail - Fire up a more powerful email and get 
+>things done faster. (http://advision.webevents.yahoo.com/mailbeta)
+>
+>_______________________________________________
+>Livecd-devel mailing list
+>Livecd-devel at lists.berlios.de
+>https://lists.berlios.de/mailman/listinfo/livecd-devel
+>
+>
+hello tom ...
+
+just wanted to tell you that i took the lead (1 1/2 month ago) of the
+i18n team for pclinuxos ...
+as part of the work we are doing i will try to provide a i18n framework
+for mklivecd
+
+DidouPh
+
+_________________________________________________________________
+D?couvrez le Blog heroic Fantaisy d'Eragon! 
+http://eragon-heroic-fantasy.spaces.live.com/
+
+
+
+From dieter at d-schuetze.de  Sat Mar 17 21:17:04 2007
+From: dieter at d-schuetze.de (=?ISO-8859-1?Q?Dieter_Sch=FCtze?=)
+Date: Sat, 17 Mar 2007 21:17:04 +0100
+Subject: [Livecd-devel] Recent updates
+In-Reply-To: <BAY126-F35B392A5CCB3BDC4997402A4700@phx.gbl>
+References: <BAY126-F35B392A5CCB3BDC4997402A4700@phx.gbl>
+Message-ID: <45FC4CC0.1050408@d-schuetze.de>
+
+I don't see any changes.
+The latest are 4 month ago
+
+http://cvs.berlios.de/cgi-bin/viewcvs.cgi/livecd/mklivecd/#dirlist
+http://cvs.berlios.de/cgi-bin/viewcvs.cgi/livecd/mklivecd/src/
+
+Regards
+Dieter
+
+Ramboz Pierre-Henri schrieb:
+> Tom Kelly a ??crit :
+>> Ivan has made some changes in CVS
+>> to improve mklivecd.
+>> I hope to look at the issues with
+>> the latest Mandriva soon.
+>>
+>> Tom
+>>
+>>
+>>  
+>> __________________________________________________________________________________________
+>> Check out the New Yahoo! Mail - Fire up a more powerful email and get 
+>> things done faster. (http://advision.webevents.yahoo.com/mailbeta)
+>>
+>> _______________________________________________
+>> Livecd-devel mailing list
+>> Livecd-devel at lists.berlios.de
+>> https://lists.berlios.de/mailman/listinfo/livecd-devel
+>>
+>>
+> hello tom ...
+> 
+> just wanted to tell you that i took the lead (1 1/2 month ago) of the
+> i18n team for pclinuxos ...
+> as part of the work we are doing i will try to provide a i18n framework
+> for mklivecd
+> 
+> DidouPh
+> 
+> _________________________________________________________________
+> D?couvrez le Blog heroic Fantaisy d'Eragon! 
+> http://eragon-heroic-fantasy.spaces.live.com/
+> 
+> _______________________________________________
+> Livecd-devel mailing list
+> Livecd-devel at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/livecd-devel
+
+
+
+From didouph at hotmail.com  Sun Mar 18 09:50:43 2007
+From: didouph at hotmail.com (Ramboz Pierre-Henri)
+Date: Sun, 18 Mar 2007 08:50:43 +0000
+Subject: [Livecd-devel] Recent updates
+Message-ID: <BAY126-F13CA30FD22155101D60463A4770@phx.gbl>
+
+neither did i
+>Dieter
+>
+>Ramboz Pierre-Henri schrieb:
+>
+>>Tom Kelly a ????crit :
+>>
+>>>Ivan has made some changes in CVS
+>>>to improve mklivecd.
+>>>I hope to look at the issues with
+>>>the latest Mandriva soon.
+>>>
+>>>Tom
+>>>
+>>>
+>>>  
+>>>__________________________________________________________________________________________
+>>>Check out the New Yahoo! Mail - Fire up a more powerful email and get 
+>>>things done faster. (http://advision.webevents.yahoo.com/mailbeta)
+>>>
+>>>_______________________________________________
+>>>Livecd-devel mailing list
+>>>Livecd-devel at lists.berlios.de
+>>>https://lists.berlios.de/mailman/listinfo/livecd-devel
+>>>
+>>>
+>>>
+>>hello tom ...
+>>
+>>just wanted to tell you that i took the lead (1 1/2 month ago) of the
+>>i18n team for pclinuxos ...
+>>as part of the work we are doing i will try to provide a i18n framework
+>>for mklivecd
+>>
+>>DidouPh
+>>
+>>_________________________________________________________________
+>>D??couvrez le Blog heroic Fantaisy d'Eragon! 
+>>http://eragon-heroic-fantasy.spaces.live.com/
+>>
+>>_______________________________________________
+>>Livecd-devel mailing list
+>>Livecd-devel at lists.berlios.de
+>>https://lists.berlios.de/mailman/listinfo/livecd-devel
+>>
+>
+>_______________________________________________
+>Livecd-devel mailing list
+>Livecd-devel at lists.berlios.de
+>https://lists.berlios.de/mailman/listinfo/livecd-devel
+>
+>
+>
+>
+
+_________________________________________________________________
+Ten :  Messenger en illimit? sur votre mobile !  
+http://mobile.live.fr/messenger/ten/
+
+
+
+From tom_kelly33 at yahoo.com  Thu Mar 22 14:35:28 2007
+From: tom_kelly33 at yahoo.com (Tom Kelly)
+Date: Thu, 22 Mar 2007 06:35:28 -0700 (PDT)
+Subject: [Livecd-devel] Status
+Message-ID: <382753.35161.qm@web51008.mail.re2.yahoo.com>
+
+I thought Ivan had checked in some
+changes. As soon as PCLOS 2007 comes
+out, some updates will be coming.
+
+Thank you for your help.
+
+Tom
+
+
+
+ 
+____________________________________________________________________________________
+We won't tell. Get more on shows you hate to love 
+(and love to hate): Yahoo! TV's Guilty Pleasures list.
+http://tv.yahoo.com/collections/265 
+
+

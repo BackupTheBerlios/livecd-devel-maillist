@@ -1,0 +1,107 @@
+From simon at onepointltd.com  Thu Dec 11 14:44:14 2008
+From: simon at onepointltd.com (Simon Blandford)
+Date: Thu, 11 Dec 2008 13:44:14 +0000
+Subject: [Livecd-devel] Patch for making mklivecd work with Mandriva 2009.0
+Message-ID: <4941192E.3080505@onepointltd.com>
+
+I have made some changes to the CVS version of mklivecd so that it works 
+with Mandriva 2009.0. I am posting them in case PCLinuxOS inherits any 
+of the same changes, such as the new way of starting udev.
+
+I have made it Mandriva specific in that it defaults to the Mandriva 
+theme etc so I don't expect it to be integrated as-is. It's just for 
+other developers to have a look at in case any of it is useful in the 
+future.
+
+Patch attached (if Mailman removes it then I will repost with the patch 
+in-line)
+
+Regards,
+SimonB
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: mklivecd_sjb.patch
+Type: text/x-patch
+Size: 22895 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/livecd-devel/attachments/20081211/c576ce93/attachment.bin>
+
+From sal5528 at gmail.com  Thu Dec 11 17:33:36 2008
+From: sal5528 at gmail.com (Sal)
+Date: Thu, 11 Dec 2008 10:33:36 -0600
+Subject: [Livecd-devel] Patch for making mklivecd work with Mandriva
+	2009.0
+In-Reply-To: <4941192E.3080505@onepointltd.com>
+References: <4941192E.3080505@onepointltd.com>
+Message-ID: <200812111033.36573.Sal5523@ameritech.net>
+
+On Thursday 11 December 2008 07:44:14 am Simon Blandford wrote:
+> I have made some changes to the CVS version of mklivecd so that it works
+> with Mandriva 2009.0. I am posting them in case PCLinuxOS inherits any
+> of the same changes, such as the new way of starting udev.
+>
+> I have made it Mandriva specific in that it defaults to the Mandriva
+> theme etc so I don't expect it to be integrated as-is. It's just for
+> other developers to have a look at in case any of it is useful in the
+> future.
+>
+> Patch attached (if Mailman removes it then I will repost with the patch
+> in-line)
+>
+> Regards,
+> SimonB
+
+SimonB, Thanks for the info!
+Sal
+
+
+From didouph at hotmail.com  Sun Dec 14 22:33:15 2008
+From: didouph at hotmail.com (DidouPh)
+Date: Sun, 14 Dec 2008 22:33:15 +0100
+Subject: [Livecd-devel] Patch for making mklivecd work with Mandriva
+	2009.0
+In-Reply-To: <200812111033.36573.Sal5523@ameritech.net>
+References: <4941192E.3080505@onepointltd.com>
+	<200812111033.36573.Sal5523@ameritech.net>
+Message-ID: <2517AE8B-D435-4CEA-8BF5-41BADE517611@hotmail.com>
+
+Sal
+Will you commit to the  cvs or should i do so?
+
+----
+Pierre-Henri RAMBOZ
+9 rue de la Monnaie
+37000 Tours
+06 78 02 53 15
+Ramboz at orange.fr
+
+Le 11 d?c. 08 ? 17:33, Sal <sal5528 at gmail.com> a ?crit :
+
+> On Thursday 11 December 2008 07:44:14 am Simon Blandford wrote:
+>> I have made some changes to the CVS version of mklivecd so that it  
+>> works
+>> with Mandriva 2009.0. I am posting them in case PCLinuxOS inherits  
+>> any
+>> of the same changes, such as the new way of starting udev.
+>>
+>> I have made it Mandriva specific in that it defaults to the Mandriva
+>> theme etc so I don't expect it to be integrated as-is. It's just for
+>> other developers to have a look at in case any of it is useful in the
+>> future.
+>>
+>> Patch attached (if Mailman removes it then I will repost with the  
+>> patch
+>> in-line)
+>>
+>> Regards,
+>> SimonB
+>
+> SimonB, Thanks for the info!
+> Sal
+> _______________________________________________
+> Livecd-devel mailing list
+> Livecd-devel at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/livecd-devel
+>
+
+

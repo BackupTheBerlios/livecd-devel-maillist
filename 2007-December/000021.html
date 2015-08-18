@@ -1,0 +1,97 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Livecd-devel] [Bug #3454] Changeing keyboard does not work in	LiveCD
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/livecd-devel/2007-December/index.html" >
+   <LINK REL="made" HREF="mailto:livecd-devel%40lists.berlios.de?Subject=Re%3A%20%5BLivecd-devel%5D%20%5BBug%20%233454%5D%20Changeing%20keyboard%20does%20not%20work%20in%0A%09LiveCD&In-Reply-To=%3C200712052328.lB5NS397003216%40unicorn.berlios.de%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000012.html">
+   <LINK REL="Next"  HREF="000013.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Livecd-devel] [Bug #3454] Changeing keyboard does not work in	LiveCD</H1>
+    <B>admin at berlios.de</B> 
+    <A HREF="mailto:livecd-devel%40lists.berlios.de?Subject=Re%3A%20%5BLivecd-devel%5D%20%5BBug%20%233454%5D%20Changeing%20keyboard%20does%20not%20work%20in%0A%09LiveCD&In-Reply-To=%3C200712052328.lB5NS397003216%40unicorn.berlios.de%3E"
+       TITLE="[Livecd-devel] [Bug #3454] Changeing keyboard does not work in	LiveCD">admin at berlios.de
+       </A><BR>
+    <I>Thu Dec  6 00:29:16 CET 2007</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000012.html">[Livecd-devel] new developer
+</A></li>
+        <LI>Next message: <A HREF="000013.html">[Livecd-devel] pclinuxos srpm
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#21">[ date ]</a>
+              <a href="thread.html#21">[ thread ]</a>
+              <a href="subject.html#21">[ subject ]</a>
+              <a href="author.html#21">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Bug #3454, was updated on 2005-Feb-23 12:09
+Here is a current snapshot of the bug.
+
+Project: LiveCD
+Category: mklivecd
+Status: Open
+Resolution: None
+Bug Group: None
+Priority: 6
+Submitted by: none
+Assigned to : none
+Summary: Changeing keyboard does not work in LiveCD
+
+Details: The problem is that if you e.g. add the keyboard chooser to kicker in KDE or run the command setxkbmap then you get an error that the keymap can not be loaded.
+
+The reason for this bug is simply because X cannot make a temporary file under /var/lib/xkb/. The permissions here needs to be 0777 or something similar for it to work under runlevel 3.
+
+When running under runlevel 5 however the system tries to find the files from 
+/usr/X11R6/lib/X11/xkb/
+which is (atleast on a Mandrake system) a symlink to:
+../../../../etc/X11/xkb/
+This should be changed to 
+/etc/X11/xkb/
+Since the relative link will point to the read only media when running from cd.
+
+The same goes for the link:
+/etc/X11/xkb/compiled/
+It links to
+../../../var/lib/xkb/
+But it should be:
+/var/lib/xkb/
+
+Not sure if this bug should go to mandrake or if this should be fixed when doing in mklivecd. After changing the two links and the permissions it works just fine on the resulting LiveCD.
+
+For detailed info, follow this link:
+<A HREF="http://developer.berlios.de/bugs/?func=detailbug&amp;bug_id=3454&amp;group_id=1149">http://developer.berlios.de/bugs/?func=detailbug&amp;bug_id=3454&amp;group_id=1149</A>
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000012.html">[Livecd-devel] new developer
+</A></li>
+	<LI>Next message: <A HREF="000013.html">[Livecd-devel] pclinuxos srpm
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#21">[ date ]</a>
+              <a href="thread.html#21">[ thread ]</a>
+              <a href="subject.html#21">[ subject ]</a>
+              <a href="author.html#21">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/livecd-devel">More information about the Livecd-devel
+mailing list</a><br>
+</body></html>
